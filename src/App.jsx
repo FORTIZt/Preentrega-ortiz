@@ -4,14 +4,14 @@ import HomeContainer from "./components/pages/home/HomeContainer";
 import ItemListContainer from "./components/pages/itemList/ItemListContainer";
 
 function App() {
-  const [nombre, setNombre] = useState("oscar");
+  const [nombre, setNombre] = useState("Andrés");
 
-  const saludo = "Hola como estas? Espero que muy bien!"
+  const saludo = "Hola Espero Que Te Encuentres Muy Bien!";
 
   return (
     <div>
       <Navbar />
-      <button onClick={() => setNombre("fulanito")}>Cambiar nombre</button>
+      <button onClick={() => setNombre("sultanito")}>Cambiar nombre</button>
       <HomeContainer nombre={nombre} />
       <ItemListContainer saludo={saludo} />
     </div>
@@ -19,9 +19,3 @@ function App() {
 }
 
 export default App;
-
-// const sumar = ( numero )=>{
-
-// }
-
-// home(25)

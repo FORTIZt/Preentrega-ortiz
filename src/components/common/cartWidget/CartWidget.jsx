@@ -1,10 +1,10 @@
-import { BsFillCartCheckFill } from "react-icons/bs";
+import { PiShoppingCartSimpleThin } from "react-icons/pi";
 
 const CartWidget = () => {
   return (
     <div>
       {/* icono de carrito */}
-      <BsFillCartCheckFill color="white" size="40px" />
+      <PiShoppingCartSimpleThin size="30px" />
     </div>
   );
 };
